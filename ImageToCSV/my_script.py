@@ -41,7 +41,7 @@ with open('output_file.csv', 'w+') as f:
         # f.write('R,G,B\n')
 
         # read the details of each pixel and write them to the file
-        f.write('{0}, '.format(emotions))
+        f.write('{0},'.format(emotions))
         for x in range(width):
             for y in range(height):
                 gray = pix[x, y]
